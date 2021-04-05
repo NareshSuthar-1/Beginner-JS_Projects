@@ -49,7 +49,8 @@ function loadQuestions() {
     <div class="score-palnnel">         
      <h5> Your Score is  ${score} / ${myQuestions.length}</h5>
     <h4 id="congatsMsg">Congratulation</h4>
-    <button type="submit" class="btn" onclick="location.reload()">Play Again</button></div>`;
+    <button type="submit" class="btn" style="display:inline-block; margin:4px 10px;" onclick="location.reload()">Play Again</button>
+    <button type="submit" style="margin:4px 10px; display:inline-block;" class="btn" onclick="history.back()">Exit</button></div>`;
     QSTList.innerHTML = "";
     QSTList.style.backgroundColor = transparent;
     document.querySelector(".inner-container").style.padding = 0;
