@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./image/lock.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- login form -->
+            <div class="loginForm to">
+                <!-- -------    LOCK IMAGE START    IMAGE NAME IS GROUP 1------------>
+                <div class="im">
+                    <img src="./image/lock.svg" alt="">
+                </div>
+                <!-- LOCK IMAGE END  -->
+                <form action="file:///C:/Users/realp/Desktop/vaahan.com/homepage.html" autocomplete="on">
+                    <input type="text" id="user-name" name="user-name" placeholder="User-Name" required /><br />
+                    <input type="password" id="password" name="password" placeholder="Password" required /><br />
+                    <input type="checkbox" name="remberMe" id="remberMe" value="checkbox"><label for="remberMe"
+                        style="margin: 5px 5px 5px 5px;">Remember Me</label><br />
+                    <button type="submit">Log In</button><br>
+                    <small style="margin: 0px;" id="SignUp_Btn">
+                        <p>Have No Account ! Register </p>
+                    </small>
+                </form>
+            </div>
+            <!-- signuop -->
+            <div class="SignUp_form bo">
+                <div class="LogOPtn">
+                    <a href=""> <i class="fab fa-facebook"></i></a><a href=""> <i
+                            class="fab fa-google-plus-g"></i></a><a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <!-- Sign Up Form  -->
+                <form action="file:///C:/Users/realp/Desktop/vaahan.com/homepage.html" autocomplete="on">
+                    <input type="text" id="user-name" name="user-name" placeholder="User-Name" required /><br />
+                    <input type="email" id="email" name="email" placeholder="E-Mail" required /><br />
+                    <input type="password" id="password" name="password" placeholder="Password" required /><br />
+                    <input type="password" id="ConForm_password" name="ConForm_password" placeholder="Conform Password"
+                        required /><br />
+                    <button type="submit">Sign Up</button><br>
+                    <small style="margin: 0px;" id="Login_Btn">
+                        <p>Alredy have Account ? Login</p>
+                    </small>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
