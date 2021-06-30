@@ -1,0 +1,92 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="shape"></div>
+        <div class="form_containet">
+            <div id="sign_In_form">
+                <h1 class="gradient-text">Sign In</h1>
+                <form action="" method="post">
+                    <div class="input-fields" >
+                        <i class="fas fa-user gradient-text"></i>
+                        <input type="email" name="email" id="email" placeholder="E-mail Adress">
+                    </div>
+                    <div class="input-fields" >
+                        <i class="fas fa-lock gradient-text"></i>
+                        <input type="password" id="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="input-fields">
+                        <button type="submit" class="btn gradient-backgrond" name="Sign_In_btn" id="SignIN_Btn" >Login</button>
+                    </div>
+                </form>
+                <div class="socila-media-container">
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f gradient-text"></i>
+                        <i class="fab fa-google gradient-text"></i>
+                        <i class="fab fa-twitter gradient-text"></i>
+                        <i class="fab fa-linkedin-in gradient-text"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="sign_up_form" class="sign_up_form">
+                <h1 class="gradient-text">Sign Up</h1>
+                <form action="" method="post">
+                    <div class="input-fields">
+                        <i class="fas fa-user gradient-text"></i>
+                        <input type="text" name="user-name" id="user-name" placeholder="uname">
+                    </div>
+                    <div class="input-fields" >
+                        <i class="fas fa-envelope gradient-text"></i>
+                        <input type="email" name="email" id="email_Si_UP" placeholder="E-mail Adress">
+                    </div>
+                    <div class="input-fields">
+                        <i class="fas fa-lock gradient-text"></i>
+                        <input type="password" name="password" id="Sign_UP_password" placeholder="Password">
+                    </div>
+                    <div class="input-fields">
+                        <i class="fas fa-check-circle gradient-text"></i>
+                        <input type="password" name="password" id="Cpassword" placeholder="Conform Password">
+                    </div>
+                    <div class="input-fields">
+                        <button type="submit" class="btn gradient-backgrond" name="Sign_In_btn" id="SignUP_Btn">Create Account</button>
+                    </div>
+                </form>
+                <div class="socila-media-container">
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f gradient-text"></i>
+                        <i class="fab fa-google gradient-text"></i>
+                        <i class="fab fa-twitter gradient-text"></i>
+                        <i class="fab fa-linkedin-in gradient-text"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-container">
+            <div class="panel-content" id="panel_content">
+                <h1>WELCOME !!!</h1>
+                <p>have no account , Create at one tap</p>
+                <button class="btn load-signUp-form" id="Sign_up_mode_on">Create Account</button>
+                <button class="btn load-signUp-form" id="Sign_IN_mode_on">logn</button>
+            </div>
+            <div class="panel-img">
+                <img src="./loginSVG.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="./script.js" type="text/javascript"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
