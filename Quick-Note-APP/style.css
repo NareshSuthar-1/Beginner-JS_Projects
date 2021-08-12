@@ -1,0 +1,157 @@
+.navbar {
+  padding: 5px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar-light .navbar-brand {
+  margin-left: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.navbar-light .navbar-brand:hover {
+  color: bisque;
+}
+/* NAVBAR */
+.form-container {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.623);
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.form .form-group {
+  padding: 10px;
+}
+.form .form-group #Title {
+}
+.form .form-group Description {
+}
+.form .form-group:nth-child(2) {
+  width: 50%;
+}
+#Add-Note-BTN {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row .card {
+  max-width: 270px;
+  margin: 10px 15px;
+}
+.Done {
+  display: none;
+}
+.alert {
+  display: none;
+}
+
+/* cards */
+.row .card {
+  width: 350px;
+}
+.row .card .card-body {
+  padding: 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.658);
+}
+.row .card .card-body .card-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  background-color: rgba(48, 46, 46, 0.836);
+  padding: 5px 15px;
+  color: white;
+  margin-bottom: 5px;
+}
+.row .card .card-body .card-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 5px 16px;
+  width: 100%;
+  height: fit-content;
+}
+.btn {
+  padding: 0.375rem 0.65rem;
+  border-radius: 0.35rem;
+  margin: 4px 4px 10px 7px;
+}
+.btn-primary {
+  margin-left: 15px;
+}
+/* footer */
+
+footer {
+  padding: 15px 30px;
+
+  width: 100%;
+}
+footer .footer {
+  text-align: center;
+  color: white;
+}
+/* media query
+ */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar form input {
+    width: 50%;
+    height: 30px;
+  }
+  .navbar form button {
+    width: 20%;
+    text-align: center;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .form {
+    flex-direction: column;
+  }
+  .form .form-group {
+    width: 100%;
+    margin: 0;
+  }
+  .form .form-group:nth-child(2) {
+    width: 100%;
+  }
+  .form #Add-Note-BTN {
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+:disabled {
+  /* background-color:red; */
+  border: 0;
+}
